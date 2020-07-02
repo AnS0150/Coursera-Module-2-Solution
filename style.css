@@ -1,0 +1,207 @@
+*{
+    margin: 5px;
+    box-sizing: border-box;
+    background-color: lightgoldenrodyellow
+}
+
+
+header {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 5%;
+}
+
+
+p{
+    position: relative;
+    margin: 1%;
+    margin-bottom: 10%;
+    padding: 5%;
+    padding-top: 15%;
+    width: 96%;
+    font-size: 100%;
+    border: 1px black solid;
+    background-color: cornsilk;
+}
+
+.head{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin-top: -.2%;
+    margin-right: -.2%;
+    padding: 3% 9%;
+    border: 1px black solid;
+    background-color: khaki;
+}
+
+
+.row{
+    width: 100%;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+    .mc1, .mc2, .mc3, .mc4, .mc5, .mc6, .mc7, .mc8, .mc9, .mc10, .mc11, .mc12{
+        float: left;
+    } 
+    
+    .mc1{
+        width: 8.33%;
+    }
+    
+    .mc2{
+        width: 16.66%;
+    }
+    
+    .mc3{
+        width: 25%;
+    }
+    
+    .mc4{
+        width: 33%;
+    }
+    
+    .mc5{
+        width: 41.66%;
+    }
+    
+    .mc6{
+        width: 50%;
+    }
+    
+    .mc7{
+        width: 58.33%;
+    }
+    
+    .mc8{
+        width: 66.66%;
+    }
+    
+    .mc9{
+        width: 74.99%;
+    }
+    
+    .mc10{
+        width: 83.33%;
+    }
+    
+    .mc11{
+        width: 91.66%;
+    }
+    
+    .mc12{
+        width: 100%;
+    }
+    
+    header {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: .5%;
+    }
+
+    p{
+        margin: 4%;
+        padding: 2%;
+        padding-top: 8%;
+        
+    }
+    
+    .mc11 .head{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin-top: -.2%;
+    margin-right: -.2%;
+    padding: 1.5% 5%;
+    border: 1px black solid;
+    }
+    
+    .head{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin-top: -.3%;
+    margin-right: -.3%;
+    padding: 3% 9%;
+    border: 1px black solid;
+}
+}
+
+
+@media (min-width: 992px){
+    .lc1, .lc2, .lc3, .lc4, .lc5, .lc6, .lc7, .lc8, .lc9, .lc10, .lc11, .lc12{
+        float: left;
+    } 
+    
+    .lc1{
+        width: 8.33%;
+    }
+    
+    .lc2{
+        width: 16.66%;
+    }
+    
+    .lc3{
+        width: 25%;
+    }
+    
+    .lc4{
+        width: 33%;
+    }
+    
+    .lc5{
+        width: 41.66%;
+    }
+    
+    .lc6{
+        width: 50%;
+    }
+    
+    .lc7{
+        width: 58.33%;
+    }
+    
+    .lc8{
+        width: 66.66%;
+    }
+    
+    .lc9{
+        width: 74.99%;
+    }
+    
+    .lc10{
+        width: 83.33%;
+    }
+    
+    .lc11{
+        width: 91.66%;
+    }
+    
+    .lc12{
+        width: 100%;
+    }
+    
+    header {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0%;
+    }
+
+    p{
+        margin: 4%;
+        padding: 2%;
+        padding-top: 5%;
+        
+    }
+    
+    .head{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    margin-top: -.2%;
+    margin-right: -.3%;
+    padding: 3% 9%;
+    border: 1px black solid;
+    }
+}
